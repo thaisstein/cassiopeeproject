@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Control - Login</title>
+    <style>
+        body {
+            background-color: #3498db; /* Blue background color */
+            color: #fff; /* White text color */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #login-form {
+            background-color: #fff;
+            color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 0 auto;
+            width: 300px;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #2980b9; /* Dark blue button color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1c6ca7; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Traffic Control - Login</h1>
+    <form id="login-form" action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
