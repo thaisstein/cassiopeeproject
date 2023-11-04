@@ -5,7 +5,7 @@
 - This project is about creating a beautiful and interactive web application with a recipe graph. It uses graph theory to suggest new recipes based on user preferences and offers a platform for local businesses to sell their products. HTML, CSS and Javascript were used to build the application.
 
 ## Technology Used
-- We developed a Flask application using Python, JavaScript, HTML, and CSS that seamlessly integrates with the Neo4j graph database. This application offers a platform for various functionalities and data management through the power of a graph database.
+- We developed a **Flask **application using **Python, JavaScript, HTML, and CSS** that seamlessly integrates with the Neo4j** graph **database.
 
 ## Screenshots
 - Website's landpage:
